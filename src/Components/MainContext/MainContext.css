@@ -1,0 +1,12 @@
+#mainContext {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../Assets/Sunset.jpg");
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    background-size: cover;
+    box-sizing: border-box;
+    width: auto;
+    height: 100vh;
+    color: white;
+}
