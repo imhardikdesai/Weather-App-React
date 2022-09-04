@@ -5,8 +5,8 @@ import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar name={"Wheather App"}/>
-      <MainContext/>
+      <NavBar name={"Wheather App"} />
+      <MainContext />
     </div>
   );
 }
