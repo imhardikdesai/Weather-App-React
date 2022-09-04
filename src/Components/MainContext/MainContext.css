@@ -6,6 +6,14 @@
     background-size: cover;
     box-sizing: border-box;
     /* width: auto; */
-    height: 92vh;
+    height: 100vh;
     color: white;
+}
+
+
+@media only screen and (max-width: 977px){
+   #mainContext {
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
 }
