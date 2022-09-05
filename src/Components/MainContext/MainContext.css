@@ -1,7 +1,7 @@
 #mainContext {
     display: flex;
     flex-direction: row;
-    background-image: url("../../Assets/Sunset.jpg");
+    background-image: url("../../Assets/Sunset_mountain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -11,9 +11,9 @@
 }
 
 
-@media only screen and (max-width: 977px){
-   #mainContext {
-       flex-direction: column;
-       justify-content: space-evenly;
-   }
+@media only screen and (max-width: 977px) {
+    #mainContext {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 }

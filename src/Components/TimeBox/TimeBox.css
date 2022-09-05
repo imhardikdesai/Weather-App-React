@@ -1,7 +1,7 @@
 #timeBox {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     padding-bottom: 10px;
     justify-content: space-around;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -14,7 +14,7 @@
         align-items: flex-start;
     }
 
-    .tempreature{
-        margin: 10px 0px ;
+    .tempreature {
+        margin: 10px 0px;
     }
 }
