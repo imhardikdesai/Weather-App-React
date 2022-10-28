@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 71.2333,
+        "lat": 21.6167
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 89.17,
+        "feels_like": 86.45,
+        "temp_min": 89.17,
+        "temp_max": 89.17,
+        "pressure": 1014,
+        "humidity": 27,
+        "sea_level": 1014,
+        "grnd_level": 999
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 6.33,
+        "deg": 75,
+        "gust": 10.67
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1666935651,
+    "sys": {
+        "country": "IN",
+        "sunrise": 1666919768,
+        "sunset": 1666960884
+    },
+    "timezone": 19800,
+    "id": 1278715,
+    "name": "Amreli",
+    "cod": 200
+}
