@@ -21,6 +21,7 @@ export default function MainContext() {
       setCity('');
     }
   }
+  // console.log(weatherData.length);
   const toCelsius = (temp) => {
     return ((temp - 32) * 5 / 9).toFixed();
   }
@@ -32,9 +33,10 @@ export default function MainContext() {
         <input type="text" value={city} placeholder="Enter Location" onChange={(e) => setCity(e.target.value)} onKeyPress={getWeatherData} />
       </div>
 
-      {weatherData.main ? <TimeBox temperature={toCelsius(weatherData.main.temp)} /> : null}
-
-      {weatherData.main ? <WeatherInfo temperature={toCelsius(weatherData.main.temp)} name={weatherData.name} clouds={weatherData.weather[0].main} humidity={weatherData.main.humidity} speed={weatherData.wind.speed} visibility={weatherData.visibility} /> : null}
+      {weatherData.length !== undefined ? <div>
+        {weatherData.main ? <TimeBox temperature={toCelsius(weatherData.main.temp)} /> : null}
+        {weatherData.main ? <WeatherInfo temperature={toCelsius(weatherData.main.temp)} name={weatherData.name} clouds={weatherData.weather[0].main} humidity={weatherData.main.humidity} speed={weatherData.wind.speed} visibility={weatherData.visibility} /> : null}
+      </div> : <h1 className='display-4'>Search for a location</h1>}
     </div>
   )
 }
