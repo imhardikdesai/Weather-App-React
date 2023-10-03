@@ -46,6 +46,6 @@ export default function MainContext() {
       <h1 style={{ position: 'absolute', top: '50%', display: currentDisplay }} className='display-4 '>Search for a location to view Weather Data</h1>
       {weatherData.main ? <TimeBox temperature={toCelsius(weatherData.main.temp)} /> : null}
       {weatherData.main ? <WeatherInfo temperature={toCelsius(weatherData.main.temp)} name={weatherData.name} clouds={weatherData.weather[0].main} humidity={weatherData.main.humidity} speed={weatherData.wind.speed} visibility={weatherData.visibility} /> : null}
-    </div >
+    <br/></div >
   )
 }
